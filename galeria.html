@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html class="scroll-smooth" lang="pl">
+<head>
+    <meta charset="utf-8"/>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+    <title>Beata Stróżna - Gabinet Masażu Leczniczego</title>
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="images/favicon.png">
+    <link rel="apple-touch-icon" href="images/favicon.png">
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&amp;family=Plus+Jakarta+Sans:wght@400;500;600;700&amp;family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+    <script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary-container": "#36b2b2", "on-primary-fixed": "#002020", "inverse-on-surface": "#f2f0f0",
+                        "surface-container": "#efeded", "on-secondary-fixed-variant": "#00429b", "on-background": "#1b1c1c",
+                        "tertiary-fixed": "#ffdbcc", "on-tertiary": "#ffffff", "error": "#ba1a1a",
+                        "primary-fixed-dim": "#74d6d6", "outline": "#6e7979", "background": "#fbf9f8",
+                        "surface-container-low": "#f5f3f3", "on-primary-fixed-variant": "#004f50",
+                        "on-secondary-fixed": "#001945", "error-container": "#ffdad6", "on-surface-variant": "#3e4949",
+                        "surface-container-high": "#eae8e7", "on-tertiary-fixed-variant": "#733512",
+                        "secondary-fixed": "#d9e2ff", "on-error": "#ffffff", "outline-variant": "#bdc9c8",
+                        "primary": "#36b2b2", "surface-container-highest": "#e4e2e2", "surface-dim": "#dbdad9",
+                        "surface-container-lowest": "#ffffff", "on-error-container": "#93000a", "deep-slate": "#333333",
+                        "surface-bright": "#fbf9f8", "secondary-fixed-dim": "#b0c6ff", "secondary": "#225abc",
+                        "surface-mist": "#EBF9F9", "on-surface": "#1b1c1c", "tertiary": "#914c27",
+                        "on-tertiary-fixed": "#351000", "surface-variant": "#e4e2e2", "on-secondary-container": "#002f74",
+                        "on-primary": "#ffffff", "surface-tint": "#36b2b2", "tertiary-fixed-dim": "#ffb693",
+                        "surface": "#fbf9f8", "inverse-surface": "#303030", "primary-fixed": "#91f3f2",
+                        "on-tertiary-container": "#622805", "inverse-primary": "#74d6d6", "secondary-container": "#6a98fe",
+                        "on-primary-container": "#004141", "on-secondary": "#ffffff", "clinical-white": "#FFFFFF",
+                        "tertiary-container": "#e38e64", "mint-bg": "#eefeff"
+                    },
+                    borderRadius: { "DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px" },
+                    spacing: { "container-max": "1200px", "stack-lg": "48px", "gutter": "24px", "margin-desktop": "64px", "base": "8px", "stack-md": "24px", "margin-mobile": "20px", "stack-sm": "12px" },
+                    fontFamily: { "display-lg": ["Manrope"], "label-md": ["Plus Jakarta Sans"], "headline-lg-mobile": ["Manrope"], "body-lg": ["Plus Jakarta Sans"], "headline-md": ["Manrope"], "caption": ["Plus Jakarta Sans"], "headline-lg": ["Manrope"], "body-md": ["Plus Jakarta Sans"] },
+                    fontSize: { "display-lg": ["48px", {"lineHeight": "56px", "letterSpacing": "-0.02em", "fontWeight": "700"}], "label-md": ["14px", {"lineHeight": "20px", "letterSpacing": "0.01em", "fontWeight": "600"}], "headline-lg-mobile": ["24px", {"lineHeight": "32px", "fontWeight": "600"}], "body-lg": ["18px", {"lineHeight": "28px", "fontWeight": "400"}], "headline-md": ["24px", {"lineHeight": "32px", "fontWeight": "500"}], "caption": ["12px", {"lineHeight": "16px", "fontWeight": "400"}], "headline-lg": ["32px", {"lineHeight": "40px", "fontWeight": "600"}], "body-md": ["16px", {"lineHeight": "24px", "fontWeight": "400"}] }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-mint-bg font-body-md text-on-surface">
+
+<header class="fixed top-0 w-full z-50 bg-mint-bg/90 backdrop-blur-md shadow-sm">
+    <nav class="flex justify-between items-center h-20 px-3 sm:px-4 md:px-margin-desktop max-w-container-max mx-auto gap-2">
+        <div class="flex items-center min-w-0 shrink-1">
+    <a class="block py-2" href="index.html">
+        <img 
+            src="images/logo.png" 
+            alt="Beata Stróżna - Gabinet Masażu Leczniczego" 
+            class="h-8 sm:h-9 md:h-10 w-auto object-contain transition-opacity hover:opacity-80"
+        >
+    </a>
+</div>
+        <ul class="hidden md:flex gap-8 items-center">
+            <li><a class="text-on-surface-variant hover:text-primary transition-colors font-label-md text-label-md" href="index.html">Strona główna</a></li>
+            <li><a class="text-on-surface-variant hover:text-primary transition-colors font-label-md text-label-md" href="o-mnie.html">O mnie</a></li>
+            <li><a class="text-on-surface-variant hover:text-primary transition-colors font-label-md text-label-md" href="oferta.html">Oferta</a></li>
+            <li><a class="text-on-surface-variant hover:text-primary transition-colors font-label-md text-label-md" href="galeria.html">Galeria</a></li>
+            <li><a class="text-on-surface-variant hover:text-primary transition-colors font-label-md text-label-md" href="kontakt.html">Kontakt</a></li>
+        </ul>
+        <div class="flex items-center gap-1.5 sm:gap-4 shrink-0">
+            <a class="bg-primary text-on-primary text-xs sm:text-label-md h-9 sm:h-11 px-3 sm:px-6 rounded-full font-semibold hover:opacity-90 transition-all shadow-md inline-flex items-center justify-center whitespace-nowrap" href="tel:+48782638597">
+                Umów wizytę
+            </a>
+            <button id="menuBtn" class="block md:hidden text-primary p-2 focus:outline-none rounded-full transition-colors hover:bg-primary/5 relative w-11 h-11" aria-label="Menu">
+                <div class="absolute inset-0 flex items-center justify-center">
+                    <svg class="w-6 h-6 transform transition-all duration-300 scale-100 rotate-0 opacity-100" id="iconMenu" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16"></path></svg>
+                    <svg class="w-6 h-6 transform transition-all duration-300 scale-50 -rotate-90 opacity-0 absolute" id="iconClose" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12"></path></svg>
+                </div>
+            </button>
+        </div>
+    </nav>
+    <div id="mobileMenu" class="hidden fixed top-20 left-0 w-full bg-clinical-white shadow-lg border-t border-outline-variant/20 py-6 px-4 md:hidden z-40">
+        <ul class="flex flex-col gap-5 text-center">
+            <li><a class="block text-on-surface-variant hover:text-primary py-2 font-label-md text-lg" href="index.html">Strona główna</a></li>
+            <li><a class="block text-on-surface-variant hover:text-primary py-2 font-label-md text-lg" href="o-mnie.html">O mnie</a></li>
+            <li><a class="block text-on-surface-variant hover:text-primary py-2 font-label-md text-lg" href="oferta.html">Oferta</a></li>
+            <li><a class="block text-on-surface-variant hover:text-primary py-2 font-label-md text-lg" href="galeria.html">Galeria</a></li>
+            <li><a class="block text-on-surface-variant hover:text-primary py-2 font-label-md text-lg" href="kontakt.html">Kontakt</a></li>
+        </ul>
+    </div>
+</header>
+
+<main class="pt-20 flex-grow">
+    <section class="py-stack-lg">
+        <div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop">
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-gutter">
+                
+                <div class="gallery-card bg-clinical-white rounded-xl overflow-hidden shadow-sm border border-outline-variant/30 aspect-square" onclick="openLightbox(0)">
+                    <div class="relative w-full h-full overflow-hidden group">
+                        <img src="images/1.jpg" alt="" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105">
+                        <div class="absolute inset-0 bg-primary/10 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+                            <span class="material-symbols-outlined text-primary text-4xl bg-clinical-white/90 p-3 rounded-full shadow">zoom_in</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="gallery-card bg-clinical-white rounded-xl overflow-hidden shadow-sm border border-outline-variant/30 aspect-square" onclick="openLightbox(1)">
+                    <div class="relative w-full h-full overflow-hidden group">
+                        <img src="images/2.jpg" alt="" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105">
+                        <div class="absolute inset-0 bg-primary/10 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+                            <span class="material-symbols-outlined text-primary text-4xl bg-clinical-white/90 p-3 rounded-full shadow">zoom_in</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="gallery-card bg-clinical-white rounded-xl overflow-hidden shadow-sm border border-outline-variant/30 aspect-square" onclick="openLightbox(2)">
+                    <div class="relative w-full h-full overflow-hidden group">
+                        <img src="images/3.jpg" alt="" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105">
+                        <div class="absolute inset-0 bg-primary/10 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+                            <span class="material-symbols-outlined text-primary text-4xl bg-clinical-white/90 p-3 rounded-full shadow">zoom_in</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="gallery-card bg-clinical-white rounded-xl overflow-hidden shadow-sm border border-outline-variant/30 aspect-square" onclick="openLightbox(3)">
+                    <div class="relative w-full h-full overflow-hidden group">
+                        <img src="images/4.jpg" alt="" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105">
+                        <div class="absolute inset-0 bg-primary/10 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+                            <span class="material-symbols-outlined text-primary text-4xl bg-clinical-white/90 p-3 rounded-full shadow">zoom_in</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="gallery-card bg-clinical-white rounded-xl overflow-hidden shadow-sm border border-outline-variant/30 aspect-square" onclick="openLightbox(4)">
+                    <div class="relative w-full h-full overflow-hidden group">
+                        <img src="images/5.jpg" alt="" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105">
+                        <div class="absolute inset-0 bg-primary/10 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+                            <span class="material-symbols-outlined text-primary text-4xl bg-clinical-white/90 p-3 rounded-full shadow">zoom_in</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="gallery-card bg-clinical-white rounded-xl overflow-hidden shadow-sm border border-outline-variant/30 aspect-square" onclick="openLightbox(5)">
+                    <div class="relative w-full h-full overflow-hidden group">
+                        <img src="images/6.jpg" alt="" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105">
+                        <div class="absolute inset-0 bg-primary/10 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+                            <span class="material-symbols-outlined text-primary text-4xl bg-clinical-white/90 p-3 rounded-full shadow">zoom_in</span>
+                        </div>
+                    </div>
+                </div>
+
+                 <div class="gallery-card bg-clinical-white rounded-xl overflow-hidden shadow-sm border border-outline-variant/30 aspect-square" onclick="openLightbox(6)">
+                    <div class="relative w-full h-full overflow-hidden group">
+                        <img src="images/14.jpg" alt="" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105">
+                        <div class="absolute inset-0 bg-primary/10 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+                            <span class="material-symbols-outlined text-primary text-4xl bg-clinical-white/90 p-3 rounded-full shadow">zoom_in</span>
+                        </div>
+                    </div>
+                </div>
+
+                 <div class="gallery-card bg-clinical-white rounded-xl overflow-hidden shadow-sm border border-outline-variant/30 aspect-square" onclick="openLightbox(7)">
+                    <div class="relative w-full h-full overflow-hidden group">
+                        <img src="images/15.jpg" alt="" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105">
+                        <div class="absolute inset-0 bg-primary/10 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+                            <span class="material-symbols-outlined text-primary text-4xl bg-clinical-white/90 p-3 rounded-full shadow">zoom_in</span>
+                        </div>
+                    </div>
+                </div>
+
+                 <div class="gallery-card bg-clinical-white rounded-xl overflow-hidden shadow-sm border border-outline-variant/30 aspect-square" onclick="openLightbox(8)">
+                    <div class="relative w-full h-full overflow-hidden group">
+                        <img src="images/16.jpg" alt="" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105">
+                        <div class="absolute inset-0 bg-primary/10 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+                            <span class="material-symbols-outlined text-primary text-4xl bg-clinical-white/90 p-3 rounded-full shadow">zoom_in</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+</main>
+
+<div id="lightbox" class="hidden fixed inset-0 z-[100] bg-black/95 backdrop-blur-sm flex items-center justify-center p-4 select-none">
+    <button onclick="closeLightbox()" class="absolute top-6 right-6 text-clinical-white hover:text-primary-fixed-dim transition-colors z-50">
+        <span class="material-symbols-outlined text-4xl">close</span>
+    </button>
+    
+    <button onclick="prevImage()" class="absolute left-4 top-1/2 -translate-y-1/2 text-clinical-white hover:text-primary-fixed-dim transition-colors bg-black/30 p-2 rounded-full backdrop-blur-sm">
+        <span class="material-symbols-outlined text-4xl">chevron_left</span>
+    </button>
+
+    <div class="max-w-5xl max-h-[90vh] flex items-center justify-center">
+        <img id="lightboxImg" class="max-w-full max-h-[90vh] object-contain rounded shadow-2xl" src="" alt=""/>
+    </div>
+
+    <button onclick="nextImage()" class="absolute right-4 top-1/2 -translate-y-1/2 text-clinical-white hover:text-primary-fixed-dim transition-colors bg-black/30 p-2 rounded-full backdrop-blur-sm">
+        <span class="material-symbols-outlined text-4xl">chevron_right</span>
+    </button>
+</div>
+
+<footer class="bg-mint-bg w-full py-6 border-t border-outline-variant/30 text-xs font-normal text-outline">
+    <div class="flex flex-col md:flex-row justify-between items-center px-4 md:px-margin-desktop max-w-container-max mx-auto gap-4 text-center md:text-left">
+        <div>© 2026 Gabinet Masażu Leczniczego Beata Stróżna</div>
+        <div><a class="hover:text-primary transition-colors" href="polityka-prywatnosci.html">Polityka prywatności i cookies</a></div>
+        <div class="opacity-80">Projekt i realizacja: <a class="hover:text-primary transition-colors" href="https://halaczkiewicz.it" target="_blank">halaczkiewicz.it</a></div>
+    </div>
+</footer>
+
+<script>
+   const menuBtn = document.getElementById('menuBtn');
+    const mobileMenu = document.getElementById('mobileMenu');
+    const iconMenu = document.getElementById('iconMenu');
+    const iconClose = document.getElementById('iconClose');
+
+    menuBtn.addEventListener('click', () => {
+        const isHidden = mobileMenu.classList.toggle('hidden');
+        if (isHidden) {
+            iconMenu.classList.replace('scale-50', 'scale-100');
+            iconMenu.classList.replace('rotate-90', 'rotate-0');
+            iconMenu.classList.replace('opacity-0', 'opacity-100');
+            iconClose.classList.replace('scale-100', 'scale-50');
+            iconClose.classList.replace('rotate-0', '-rotate-90');
+            iconClose.classList.replace('opacity-100', 'opacity-0');
+        } else {
+            iconMenu.classList.replace('scale-100', 'scale-50');
+            iconMenu.classList.replace('rotate-0', 'rotate-90');
+            iconMenu.classList.replace('opacity-100', 'opacity-0');
+            iconClose.classList.replace('scale-50', 'scale-100');
+            iconClose.classList.replace('-rotate-90', 'rotate-0');
+            iconClose.classList.replace('opacity-0', 'opacity-100');
+        }
+    });
+
+    // Skrypt obsługi podglądu dla plików images
+    let currentImgIndex = 0;
+    const galleryImages = [
+        "images/1.jpg",
+        "images/2.jpg",
+        "images/3.jpg",
+        "images/4.jpg",
+        "images/5.jpg",
+        "images/6.jpg",
+		"images/14.jpg",
+		"images/15.jpg",
+		"images/16.jpg"
+    ];
+
+    function openLightbox(index) {
+        currentImgIndex = index;
+        updateLightbox();
+        document.getElementById('lightbox').classList.remove('hidden');
+        document.body.classList.add('overflow-hidden');
+    }
+
+    function closeLightbox() {
+        document.getElementById('lightbox').classList.add('hidden');
+        document.body.classList.remove('overflow-hidden');
+    }
+
+    function updateLightbox() {
+        document.getElementById('lightboxImg').src = galleryImages[currentImgIndex];
+    }
+
+    function nextImage() {
+        currentImgIndex = (currentImgIndex + 1) % galleryImages.length;
+        updateLightbox();
+    }
+
+    function prevImage() {
+        currentImgIndex = (currentImgIndex - 1 + galleryImages.length) % galleryImages.length;
+        updateLightbox();
+    }
+
+    window.addEventListener('keydown', (e) => {
+        const lightbox = document.getElementById('lightbox');
+        if (!lightbox.classList.contains('hidden')) {
+            if (e.key === 'Escape') closeLightbox();
+            if (e.key === 'ArrowRight') nextImage();
+            if (e.key === 'ArrowLeft') prevImage();
+        }
+    });
+</script>
+</body>
+</html>

@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html class="scroll-smooth" lang="pl">
+<head>
+    <meta charset="utf-8"/>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+    <title>Beata Stróżna - Gabinet Masażu Leczniczego</title>
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="images/favicon.png">
+    <link rel="apple-touch-icon" href="images/favicon.png">
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&amp;family=Plus+Jakarta+Sans:wght@400;500;600;700&amp;family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+    <script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary-container": "#36b2b2", "on-primary-fixed": "#002020", "inverse-on-surface": "#f2f0f0",
+                        "surface-container": "#efeded", "on-secondary-fixed-variant": "#00429b", "on-background": "#1b1c1c",
+                        "tertiary-fixed": "#ffdbcc", "on-tertiary": "#ffffff", "error": "#ba1a1a",
+                        "primary-fixed-dim": "#74d6d6", "outline": "#6e7979", "background": "#fbf9f8",
+                        "surface-container-low": "#f5f3f3", "on-primary-fixed-variant": "#004f50",
+                        "on-secondary-fixed": "#001945", "error-container": "#ffdad6", "on-surface-variant": "#3e4949",
+                        "surface-container-high": "#eae8e7", "on-tertiary-fixed-variant": "#733512",
+                        "secondary-fixed": "#d9e2ff", "on-error": "#ffffff", "outline-variant": "#bdc9c8",
+                        "primary": "#36b2b2", "surface-container-highest": "#e4e2e2", "surface-dim": "#dbdad9",
+                        "surface-container-lowest": "#ffffff", "on-error-container": "#93000a", "deep-slate": "#333333",
+                        "surface-bright": "#fbf9f8", "secondary-fixed-dim": "#b0c6ff", "secondary": "#225abc",
+                        "surface-mist": "#EBF9F9", "on-surface": "#1b1c1c", "tertiary": "#914c27",
+                        "on-tertiary-fixed": "#351000", "surface-variant": "#e4e2e2", "on-secondary-container": "#002f74",
+                        "on-primary": "#ffffff", "surface-tint": "#36b2b2", "tertiary-fixed-dim": "#ffb693",
+                        "surface": "#fbf9f8", "inverse-surface": "#303030", "primary-fixed": "#91f3f2",
+                        "on-tertiary-container": "#622805", "inverse-primary": "#74d6d6", "secondary-container": "#6a98fe",
+                        "on-primary-container": "#004141", "on-secondary": "#ffffff", "clinical-white": "#FFFFFF",
+                        "tertiary-container": "#e38e64", "mint-bg": "#eefeff"
+                    },
+                    borderRadius: { "DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px" },
+                    spacing: { "container-max": "1200px", "stack-lg": "48px", "gutter": "24px", "margin-desktop": "64px", "base": "8px", "stack-md": "24px", "margin-mobile": "20px", "stack-sm": "12px" },
+                    fontFamily: { "display-lg": ["Manrope"], "label-md": ["Plus Jakarta Sans"], "headline-lg-mobile": ["Manrope"], "body-lg": ["Plus Jakarta Sans"], "headline-md": ["Manrope"], "caption": ["Plus Jakarta Sans"], "headline-lg": ["Manrope"], "body-md": ["Plus Jakarta Sans"] },
+                    fontSize: { "display-lg": ["48px", {"lineHeight": "56px", "letterSpacing": "-0.02em", "fontWeight": "700"}], "label-md": ["14px", {"lineHeight": "20px", "letterSpacing": "0.01em", "fontWeight": "600"}], "headline-lg-mobile": ["24px", {"lineHeight": "32px", "fontWeight": "600"}], "body-lg": ["18px", {"lineHeight": "28px", "fontWeight": "400"}], "headline-md": ["24px", {"lineHeight": "32px", "fontWeight": "500"}], "caption": ["12px", {"lineHeight": "16px", "fontWeight": "400"}], "headline-lg": ["32px", {"lineHeight": "40px", "fontWeight": "600"}], "body-md": ["16px", {"lineHeight": "24px", "fontWeight": "400"}] }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-mint-bg font-body-md text-on-surface">
+
+<header class="fixed top-0 w-full z-50 bg-mint-bg/90 backdrop-blur-md shadow-sm">
+    <nav class="flex justify-between items-center h-20 px-3 sm:px-4 md:px-margin-desktop max-w-container-max mx-auto gap-2">
+        <div class="flex items-center min-w-0 shrink-1">
+    <a class="block py-2" href="index.html">
+        <img 
+            src="images/logo.png" 
+            alt="Beata Stróżna - Gabinet Masażu Leczniczego" 
+            class="h-8 sm:h-9 md:h-10 w-auto object-contain transition-opacity hover:opacity-80"
+        >
+    </a>
+</div>
+        <ul class="hidden md:flex gap-8 items-center">
+            <li><a class="text-on-surface-variant hover:text-primary transition-colors font-label-md text-label-md" href="index.html">Strona główna</a></li>
+            <li><a class="text-on-surface-variant hover:text-primary transition-colors font-label-md text-label-md" href="o-mnie.html">O mnie</a></li>
+            <li><a class="text-on-surface-variant hover:text-primary transition-colors font-label-md text-label-md" href="oferta.html">Oferta</a></li>
+            <li><a class="text-on-surface-variant hover:text-primary transition-colors font-label-md text-label-md" href="galeria.html">Galeria</a></li>
+            <li><a class="text-on-surface-variant hover:text-primary transition-colors font-label-md text-label-md" href="kontakt.html">Kontakt</a></li>
+        </ul>
+        <div class="flex items-center gap-1.5 sm:gap-4 shrink-0">
+            <a class="bg-primary text-on-primary text-xs sm:text-label-md h-9 sm:h-11 px-3 sm:px-6 rounded-full font-semibold hover:opacity-90 transition-all shadow-md inline-flex items-center justify-center whitespace-nowrap" href="tel:+48782638597">
+                Umów wizytę
+            </a>
+            <button id="menuBtn" class="block md:hidden text-primary p-2 focus:outline-none rounded-full transition-colors hover:bg-primary/5 relative w-11 h-11" aria-label="Menu">
+                <div class="absolute inset-0 flex items-center justify-center">
+                    <svg class="w-6 h-6 transform transition-all duration-300 scale-100 rotate-0 opacity-100" id="iconMenu" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16"></path></svg>
+                    <svg class="w-6 h-6 transform transition-all duration-300 scale-50 -rotate-90 opacity-0 absolute" id="iconClose" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12"></path></svg>
+                </div>
+            </button>
+        </div>
+    </nav>
+    <div id="mobileMenu" class="hidden fixed top-20 left-0 w-full bg-clinical-white shadow-lg border-t border-outline-variant/20 py-6 px-4 md:hidden z-40">
+        <ul class="flex flex-col gap-5 text-center">
+            <li><a class="block text-on-surface-variant hover:text-primary py-2 font-label-md text-lg" href="index.html">Strona główna</a></li>
+            <li><a class="block text-on-surface-variant hover:text-primary py-2 font-label-md text-lg" href="o-mnie.html">O mnie</a></li>
+            <li><a class="block text-on-surface-variant hover:text-primary py-2 font-label-md text-lg" href="oferta.html">Oferta</a></li>
+            <li><a class="block text-on-surface-variant hover:text-primary py-2 font-label-md text-lg" href="galeria.html">Galeria</a></li>
+            <li><a class="block text-on-surface-variant hover:text-primary py-2 font-label-md text-lg" href="kontakt.html">Kontakt</a></li>
+        </ul>
+    </div>
+</header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="relative min-h-[80vh] flex items-center overflow-hidden">
+            <div class="absolute inset-0 z-0">
+                <img alt="Relaksujący masaż leczniczy" class="w-full h-full object-cover" src="images/7.jpg"/>
+                <div class="absolute inset-0 bg-gradient-to-r from-background/90 via-background/40 to-transparent"></div>
+            </div>
+            <div class="container max-w-container-max mx-auto px-4 md:px-margin-desktop relative z-10">
+                <div class="max-w-2xl">
+                    <span class="inline-block py-1 px-4 rounded-full bg-surface-mist text-primary font-label-md text-label-md mb-stack-sm border border-primary/10">Gabinet Masażu Leczniczego</span>
+                    <h1 class="font-display-lg text-display-lg text-on-background mb-stack-md leading-tight">Profesjonalny Masaż Leczniczy w Jelczu-Laskowicach</h1>
+                    <p class="font-body-lg text-body-lg text-on-surface-variant mb-stack-lg max-w-lg">Przywróć swojemu ciału sprawność i zapomnij o bólu. Skorzystaj z wieloletniego doświadczenia i indywidualnie dobranych terapii.</p>
+                    <div class="flex flex-wrap gap-stack-sm">
+                        <a class="bg-primary text-on-primary px-8 py-4 rounded-lg font-label-md text-label-md hover:translate-y-[-2px] transition-all shadow-lg inline-flex items-center justify-center" href="oferta.html">Oferta</a>
+                        <a class="border-2 border-primary text-primary px-8 py-4 rounded-lg font-label-md text-label-md hover:bg-surface-mist transition-all inline-flex items-center justify-center" href="o-mnie.html">Dowiedz się więcej</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Why Us Section -->
+        <section class="py-stack-lg bg-mint-bg">
+            <div class="container max-w-container-max mx-auto px-4 md:px-margin-desktop">
+                <div class="text-center mb-stack-lg">
+                    <h2 class="font-headline-lg text-headline-lg text-on-background mb-4">Dlaczego ja?</h2>
+                    <div class="h-1 w-20 bg-primary mx-auto rounded-full"></div>
+                </div>
+                <div class="grid grid-cols-1 md:grid-cols-12 gap-stack-md">
+                    <div class="md:col-span-8 bg-clinical-white p-10 rounded-lg shadow-[0px_4px_20px_rgba(0,0,0,0.04)] flex flex-col justify-between hover:shadow-md transition-all group border border-surface-container">
+                        <div>
+                            <span class="material-symbols-outlined text-primary text-4xl mb-4 bg-surface-mist p-4 rounded-full">history</span>
+                            <h3 class="font-headline-md text-headline-md mb-2">Prawie 30 lat doświadczenia</h3>
+                            <p class="text-on-surface-variant">Tysiące zadowolonych pacjentów i dekady praktyki klinicznej pozwalają mi precyzyjnie diagnozować źródła bólu i skutecznie je eliminować.</p>
+                        </div>
+                        <a class="mt-8 flex items-center text-primary font-semibold gap-2" href="o-mnie.html">Poznaj moją historię <span class="material-symbols-outlined group-hover:translate-x-1 transition-transform">arrow_forward</span></a>
+                    </div>
+                    <div class="md:col-span-4 bg-primary text-on-primary p-10 rounded-lg shadow-lg flex flex-col items-center text-center justify-center">
+                        <span class="material-symbols-outlined text-5xl mb-4">medical_services</span>
+                        <h3 class="font-headline-md text-headline-md mb-2">Indywidualne podejście</h3>
+                        <p class="opacity-90">Każda terapia jest projektowana pod konkretne potrzeby pacjenta.</p>
+                    </div>
+                    <div class="md:col-span-4 bg-surface-mist p-10 rounded-lg border border-primary/10">
+                        <span class="material-symbols-outlined text-primary text-3xl mb-4">precision_manufacturing</span>
+                        <h4 class="font-bold text-xl mb-2">Nowoczesny sprzęt</h4>
+                        <p class="text-on-surface-variant text-sm">Wykorzystuję certyfikowane urządzenia wspierające proces drenażu i rehabilitacji, takie jak BOA MAX 2.</p>
+                    </div>
+                    <div class="md:col-span-8 bg-clinical-white p-10 rounded-lg shadow-[0px_4px_20px_rgba(0,0,0,0.04)] flex items-center gap-6 border border-surface-container">
+                        <div class="hidden sm:block">
+                            <div class="w-24 h-24 rounded-full bg-primary-container flex items-center justify-center text-on-primary-container">
+                                <span class="material-symbols-outlined text-4xl">verified_user</span>
+                            </div>
+                        </div>
+                        <div>
+                            <h4 class="font-bold text-xl mb-1">Gwarancja jakości</h4>
+                            <p class="text-on-surface-variant">Moje usługi są oparte na rzetelnej wiedzy medycznej i ciągłym doskonaleniu umiejętności.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Short Offer Section -->
+        <section class="py-stack-lg bg-mint-bg" id="oferta">
+            <div class="container max-w-container-max mx-auto px-4 md:px-margin-desktop">
+                <div class="flex justify-between items-end mb-stack-lg flex-wrap gap-4">
+                    <div>
+                        <h2 class="font-headline-lg text-headline-lg text-on-background mb-2">Skrócona oferta</h2>
+                        <p class="text-on-surface-variant">Najczęściej wybierane zabiegi terapeutyczne.</p>
+                    </div>
+                    <a class="mt-8 flex items-center text-primary font-semibold gap-2" href="oferta.html">Zobacz peełną ofertę<span class="material-symbols-outlined group-hover:translate-x-1 transition-transform">arrow_forward</span></a>
+                </div>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-stack-md">
+                    <div class="bg-clinical-white rounded-lg overflow-hidden shadow-[0px_4px_20px_rgba(0,0,0,0.04)] hover:translate-y-[-4px] transition-all flex flex-col border border-surface-container">
+                        <div class="h-48"><img alt="Masaż Leczniczy" class="w-full h-full object-cover" src="images/7.jpg"/></div>
+                        <div class="p-stack-md flex-grow flex flex-col">
+                            <h3 class="font-headline-md text-headline-md mb-2">Masaż Leczniczy</h3>
+                            <p class="text-on-surface-variant mb-6 text-sm flex-grow">Skupiony na schorzeniach ortopedycznych i neurologicznych, eliminacji konkretnych bólów.</p>
+                            <div class="flex items-center gap-2 mb-6">
+                                <span class="px-3 py-1 bg-surface-container rounded-full text-caption">Terapeutyczny</span>
+                                <span class="px-3 py-1 bg-surface-container rounded-full text-caption">Wysoka skuteczność</span>
+                            </div>
+                            <a class="w-full py-3 border border-primary text-primary rounded-lg font-semibold hover:bg-primary hover:text-white transition-all inline-flex items-center justify-center" href="kontakt.html">Umów termin</a>
+                        </div>
+                    </div>
+                    <div class="bg-clinical-white rounded-lg overflow-hidden shadow-[0px_4px_20px_rgba(0,0,0,0.04)] hover:translate-y-[-4px] transition-all flex flex-col border border-surface-container">
+                        <div class="h-48"><img alt="Masaż Klasyczny" class="w-full h-full object-cover" src="images/8.jpg"/></div>
+                        <div class="p-stack-md flex-grow flex flex-col">
+                            <h3 class="font-headline-md text-headline-md mb-2">Masaż Klasyczny</h3>
+                            <p class="text-on-surface-variant mb-6 text-sm flex-grow">Stosowany w celach profilaktycznych jak i w leczeniu wielu schorzeń ciała.</p>
+                            <div class="flex items-center gap-2 mb-6">
+                                <span class="px-3 py-1 bg-surface-container rounded-full text-caption">Klasyczny</span>
+                                <span class="px-3 py-1 bg-surface-container rounded-full text-caption">Profilaktyka</span>
+                            </div>
+                            <a class="w-full py-3 border border-primary text-primary rounded-lg font-semibold hover:bg-primary hover:text-white transition-all inline-flex items-center justify-center" href="kontakt.html">Umów termin</a>
+                        </div>
+                    </div>
+                    <div class="bg-clinical-white rounded-lg overflow-hidden shadow-[0px_4px_20px_rgba(0,0,0,0.04)] hover:translate-y-[-4px] transition-all flex flex-col border border-surface-container">
+                        <div class="h-48"><img alt="Drenaż Limfatyczny" class="w-full h-full object-cover" src="images/7.jpg"/></div>
+                        <div class="p-stack-md flex-grow flex flex-col">
+                            <h3 class="font-headline-md text-headline-md mb-2">Drenaż Limfatyczny</h3>
+                            <p class="text-on-surface-variant mb-6 text-sm flex-grow">Usprawnia funkcję układu limfatycznego, zapobiegając groźnym zastojom.</p>
+                            <div class="flex items-center gap-2 mb-6">
+                                <span class="px-3 py-1 bg-surface-container rounded-full text-caption">Detoks</span>
+                                <span class="px-3 py-1 bg-surface-container rounded-full text-caption">Delikatny</span>
+                            </div>
+                            <a class="w-full py-3 border border-primary text-primary rounded-lg font-semibold hover:bg-primary hover:text-white transition-all inline-flex items-center justify-center" href="kontakt.html">Umów termin</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Snippet -->
+        <section class="py-stack-lg bg-mint-bg">
+            <div class="container max-w-container-max mx-auto px-4 md:px-margin-desktop">
+                <div class="flex flex-col md:flex-row items-center gap-16">
+                    <div class="md:w-1/2 relative">
+                        <div class="absolute -top-4 -left-4 w-full h-full bg-primary/10 rounded-lg"></div>
+                        <img alt="Gabinet masażu" class="rounded-lg shadow-xl relative z-10 w-full object-cover aspect-[4/5]" src="images/8.jpg"/>
+                    </div>
+                    <div class="md:w-1/2">
+                        <h2 class="font-headline-lg text-headline-lg mb-stack-sm">Beata Stróżna</h2>
+                        <p class="font-headline-md text-headline-md text-primary mb-stack-md">Doświadczona terapeutka i masażystka z pasją do pomagania</p>
+                        <div class="space-y-4 text-on-surface-variant font-body-lg">
+                            <p>Absolwentka 4-letniego Technikum Masażu w Warszawie. Specjalistka w dziedzinie masażu leczniczego, klasycznego, segmentarnego, sportowego oraz drenażu limfatycznego.</p>
+                            <p>Może pochwalić się prawie trzydziestoletnim doświadczeniem zawodowym. Swoją przygodę z masażem rozpoczęła praktyką w Instytucie Reumatologii i Neurologii w Warszawie.</p>
+                            <ul class="pt-4 space-y-2">
+                                <li class="flex items-center gap-3"><span class="material-symbols-outlined text-primary">check_circle</span> <span>Certyfikowana specjalistka masażu leczniczego</span></li>
+                                <li class="flex items-center gap-3"><span class="material-symbols-outlined text-primary">check_circle</span> <span>Prawie 30 lat doświadczenia w zawodzie</span></li>
+                            </ul>
+                            <div class="pt-6">
+                                <a class="mt-8 flex items-center text-primary font-semibold gap-2" href="o-mnie.html">Czytaj więcej o moim doświadczeniu<span class="material-symbols-outlined group-hover:translate-x-1 transition-transform">arrow_forward</span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+       <!-- Map Section -->
+        <section class="py-stack-lg bg-mint-bg" id="lokalizacja">
+            <div class="container max-w-container-max mx-auto px-4 md:px-margin-desktop">
+                <div class="text-center mb-stack-lg">
+                    <h2 class="font-headline-lg text-headline-lg text-on-background mb-4">Znajdź mój gabinet</h2>
+                    <div class="h-1 w-20 bg-primary mx-auto rounded-full"></div>
+                </div>
+                <div class="rounded-2xl overflow-hidden shadow-lg h-[450px] relative group border border-surface-container">
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2508.8657685087155!2d17.33709671329853!3d51.03709987159219!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x471021ddd17a89f5%3A0x81ee03ab067f7c80!2zTWFzYcW8IExlY3puaWN6eSBCZWF0YSBTdHLDs8W8bmE!5e0!3m2!1sen!2spl!4v1781020544994!5m2!1sen!2spl" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <div class="lg:absolute bottom-6 left-6 right-6 lg:left-auto lg:w-80 bg-clinical-white/95 backdrop-blur-sm p-6 lg:rounded-xl shadow-xl border border-primary/5">
+    <h4 class="font-headline-md text-headline-md text-primary mb-2">Moja lokalizacja</h4>
+    <p class="font-body-md text-on-surface mb-2">ul. Makowa nr 14</p>
+    <p class="font-body-md text-on-surface mb-4 text-sm">Budynek z charakterystycznym banerem i dużymi iglakami przy wejściu. Wejście od ulicy Frezjowej.</p>
+    <a class="flex items-center gap-2 text-primary font-label-md hover:underline" href="LINK_DO_TWOICH_MAP_GOOGLE" target="_blank">
+        <span>Otwórz w Mapach Google</span>
+        <span class="material-symbols-outlined text-sm">open_in_new</span>
+    </a>
+</div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-mint-bg w-full py-6 border-t border-outline-variant/30 text-xs font-normal text-outline">
+        <div class="flex flex-col md:flex-row justify-between items-center px-4 md:px-margin-desktop max-w-container-max mx-auto gap-4 text-center md:text-left">
+            <div>© 2026 Gabinet Masażu Leczniczego Beata Stróżna</div>
+            <div>
+                <a class="hover:text-primary transition-colors" href="polityka-prywatnosci.html">Polityka prywatności i cookies</a>
+            </div>
+            <div class="opacity-80">
+                Projekt i realizacja: <a class="hover:text-primary transition-colors" href="https://halaczkiewicz.it" target="_blank">halaczkiewicz.it</a>
+            </div>
+        </div>
+    </footer>
+
+ <script>
+    const menuBtn = document.getElementById('menuBtn');
+    const mobileMenu = document.getElementById('mobileMenu');
+    const iconMenu = document.getElementById('iconMenu');
+    const iconClose = document.getElementById('iconClose');
+
+    menuBtn.addEventListener('click', () => {
+        const isHidden = mobileMenu.classList.toggle('hidden');
+        if (isHidden) {
+            iconMenu.classList.replace('scale-50', 'scale-100');
+            iconMenu.classList.replace('rotate-90', 'rotate-0');
+            iconMenu.classList.replace('opacity-0', 'opacity-100');
+            iconClose.classList.replace('scale-100', 'scale-50');
+            iconClose.classList.replace('rotate-0', '-rotate-90');
+            iconClose.classList.replace('opacity-100', 'opacity-0');
+        } else {
+            iconMenu.classList.replace('scale-100', 'scale-50');
+            iconMenu.classList.replace('rotate-0', 'rotate-90');
+            iconMenu.classList.replace('opacity-100', 'opacity-0');
+            iconClose.classList.replace('scale-50', 'scale-100');
+            iconClose.classList.replace('-rotate-90', 'rotate-0');
+            iconClose.classList.replace('opacity-0', 'opacity-100');
+        }
+    });
+</script>
+</body>
+</html>

@@ -1,0 +1,6 @@
+Contact: mailto:biuro@masazleczniczybeata.pl
+Preferred-Languages: en, pl
+Canonical: https://masazleczniczybeata.pl/security.txt
+Policy: https://masazleczniczybeata.pl/
+Hiring: https://masazleczniczybeata.pl/
+Expires: 2036-07-24T00:00:00Z

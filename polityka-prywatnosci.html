@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html class="scroll-smooth" lang="pl">
+<head>
+    <meta charset="utf-8"/>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+    <title>Beata Stróżna - Gabinet Masażu Leczniczego</title>
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="images/favicon.png">
+    <link rel="apple-touch-icon" href="images/favicon.png">
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&amp;family=Plus+Jakarta+Sans:wght@400;500;600;700&amp;family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+   <script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary-container": "#36b2b2", "on-primary-fixed": "#002020", "inverse-on-surface": "#f2f0f0",
+                        "surface-container": "#efeded", "on-secondary-fixed-variant": "#00429b", "on-background": "#1b1c1c",
+                        "tertiary-fixed": "#ffdbcc", "on-tertiary": "#ffffff", "error": "#ba1a1a",
+                        "primary-fixed-dim": "#74d6d6", "outline": "#6e7979", "background": "#fbf9f8",
+                        "surface-container-low": "#f5f3f3", "on-primary-fixed-variant": "#004f50",
+                        "on-secondary-fixed": "#001945", "error-container": "#ffdad6", "on-surface-variant": "#3e4949",
+                        "surface-container-high": "#eae8e7", "on-tertiary-fixed-variant": "#733512",
+                        "secondary-fixed": "#d9e2ff", "on-error": "#ffffff", "outline-variant": "#bdc9c8",
+                        "primary": "#36b2b2", "surface-container-highest": "#e4e2e2", "surface-dim": "#dbdad9",
+                        "surface-container-lowest": "#ffffff", "on-error-container": "#93000a", "deep-slate": "#333333",
+                        "surface-bright": "#fbf9f8", "secondary-fixed-dim": "#b0c6ff", "secondary": "#225abc",
+                        "surface-mist": "#EBF9F9", "on-surface": "#1b1c1c", "tertiary": "#914c27",
+                        "on-tertiary-fixed": "#351000", "surface-variant": "#e4e2e2", "on-secondary-container": "#002f74",
+                        "on-primary": "#ffffff", "surface-tint": "#36b2b2", "tertiary-fixed-dim": "#ffb693",
+                        "surface": "#fbf9f8", "inverse-surface": "#303030", "primary-fixed": "#91f3f2",
+                        "on-tertiary-container": "#622805", "inverse-primary": "#74d6d6", "secondary-container": "#6a98fe",
+                        "on-primary-container": "#004141", "on-secondary": "#ffffff", "clinical-white": "#FFFFFF",
+                        "tertiary-container": "#e38e64", "mint-bg": "#eefeff"
+                    },
+                    borderRadius: { "DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px" },
+                    spacing: { "container-max": "1200px", "stack-lg": "48px", "gutter": "24px", "margin-desktop": "64px", "base": "8px", "stack-md": "24px", "margin-mobile": "20px", "stack-sm": "12px" },
+                    fontFamily: { "display-lg": ["Manrope"], "label-md": ["Plus Jakarta Sans"], "headline-lg-mobile": ["Manrope"], "body-lg": ["Plus Jakarta Sans"], "headline-md": ["Manrope"], "caption": ["Plus Jakarta Sans"], "headline-lg": ["Manrope"], "body-md": ["Plus Jakarta Sans"] },
+                    fontSize: { "display-lg": ["48px", {"lineHeight": "56px", "letterSpacing": "-0.02em", "fontWeight": "700"}], "label-md": ["14px", {"lineHeight": "20px", "letterSpacing": "0.01em", "fontWeight": "600"}], "headline-lg-mobile": ["24px", {"lineHeight": "32px", "fontWeight": "600"}], "body-lg": ["18px", {"lineHeight": "28px", "fontWeight": "400"}], "headline-md": ["24px", {"lineHeight": "32px", "fontWeight": "500"}], "caption": ["12px", {"lineHeight": "16px", "fontWeight": "400"}], "headline-lg": ["32px", {"lineHeight": "40px", "fontWeight": "600"}], "body-md": ["16px", {"lineHeight": "24px", "fontWeight": "400"}] }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-mint-bg font-body-md text-on-surface">
+
+<header class="fixed top-0 w-full z-50 bg-mint-bg/90 backdrop-blur-md shadow-sm">
+    <nav class="flex justify-between items-center h-20 px-3 sm:px-4 md:px-margin-desktop max-w-container-max mx-auto gap-2">
+        <div class="flex items-center min-w-0 shrink-1">
+    <a class="block py-2" href="index.html">
+        <img 
+            src="images/logo.png" 
+            alt="Beata Stróżna - Gabinet Masażu Leczniczego" 
+            class="h-8 sm:h-9 md:h-10 w-auto object-contain transition-opacity hover:opacity-80"
+        >
+    </a>
+</div>
+        <ul class="hidden md:flex gap-8 items-center">
+            <li><a class="text-on-surface-variant hover:text-primary transition-colors font-label-md text-label-md" href="index.html">Strona główna</a></li>
+            <li><a class="text-on-surface-variant hover:text-primary transition-colors font-label-md text-label-md" href="o-mnie.html">O mnie</a></li>
+            <li><a class="text-on-surface-variant hover:text-primary transition-colors font-label-md text-label-md" href="oferta.html">Oferta</a></li>
+            <li><a class="text-on-surface-variant hover:text-primary transition-colors font-label-md text-label-md" href="galeria.html">Galeria</a></li>
+            <li><a class="text-on-surface-variant hover:text-primary transition-colors font-label-md text-label-md" href="kontakt.html">Kontakt</a></li>
+        </ul>
+        <div class="flex items-center gap-1.5 sm:gap-4 shrink-0">
+            <a class="bg-primary text-on-primary text-xs sm:text-label-md h-9 sm:h-11 px-3 sm:px-6 rounded-full font-semibold hover:opacity-90 transition-all shadow-md inline-flex items-center justify-center whitespace-nowrap" href="tel:+48782638597">
+                Umów wizytę
+            </a>
+            <button id="menuBtn" class="block md:hidden text-primary p-2 focus:outline-none rounded-full transition-colors hover:bg-primary/5 relative w-11 h-11" aria-label="Menu">
+                <div class="absolute inset-0 flex items-center justify-center">
+                    <svg class="w-6 h-6 transform transition-all duration-300 scale-100 rotate-0 opacity-100" id="iconMenu" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16"></path></svg>
+                    <svg class="w-6 h-6 transform transition-all duration-300 scale-50 -rotate-90 opacity-0 absolute" id="iconClose" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12"></path></svg>
+                </div>
+            </button>
+        </div>
+    </nav>
+    <div id="mobileMenu" class="hidden fixed top-20 left-0 w-full bg-clinical-white shadow-lg border-t border-outline-variant/20 py-6 px-4 md:hidden z-40">
+        <ul class="flex flex-col gap-5 text-center">
+            <li><a class="block text-on-surface-variant hover:text-primary py-2 font-label-md text-lg" href="index.html">Strona główna</a></li>
+            <li><a class="block text-on-surface-variant hover:text-primary py-2 font-label-md text-lg" href="o-mnie.html">O mnie</a></li>
+            <li><a class="block text-on-surface-variant hover:text-primary py-2 font-label-md text-lg" href="oferta.html">Oferta</a></li>
+            <li><a class="block text-on-surface-variant hover:text-primary py-2 font-label-md text-lg" href="galeria.html">Galeria</a></li>
+            <li><a class="block text-on-surface-variant hover:text-primary py-2 font-label-md text-lg" href="kontakt.html">Kontakt</a></li>
+        </ul>
+    </div>
+</header>
+
+<main class="pt-28 pb-stack-lg">
+    <div class="container max-w-4xl mx-auto px-4 md:px-margin-desktop">
+        <h1 class="font-display-lg text-display-lg text-on-background mb-stack-md">Polityka prywatności</h1>
+        <article class="bg-clinical-white p-stack-md md:p-12 rounded-xl shadow-[0px_4px_20px_rgba(0,0,0,0.04)] legal-content text-on-surface-variant border border-outline-variant/30">
+                <section>
+                    <h2 class="font-headline-lg text-headline-lg text-primary">1. Informacje ogólne</h2>
+                    <p class="font-body-md text-body-md">
+                        Niniejsza Polityka Prywatności określa zasady gromadzenia, przetwarzania i wykorzystywania danych osobowych pozyskanych od Państwa przez serwis internetowy Gabinetu Masażu Leczniczego Beaty Stróżnej. Administratorem danych osobowych jest Beata Stróżna, prowadząca działalność gospodarczą pod nazwą Gabinet Masażu Leczniczego - Beata Stróżna, z siedzibą przy ul. Makowa 14, 55-220 Jelcz-Laskowice.
+                    </p>
+                    <p class="font-body-md text-body-md">
+                        W trosce o bezpieczeństwo powierzonych mi danych opracowałam wewnętrzne procedury i zalecenia, które mają zapobiec udostępnieniu danych osobom nieupoważnionym. Kontroluję ich wykonywanie i stale sprawdzam ich zgodność z odpowiednimi aktami prawnymi, w szczególności z Rozporządzeniem Parlamentu Europejskiego i Rady (UE) 2016/679 (RODO).
+                    </p>
+                </section>
+
+                <section>
+                    <h2 class="font-headline-lg text-headline-lg text-primary">2. Cele i podstawy przetwarzania danych</h2>
+                    <p class="font-body-md text-body-md">Państwa dane osobowe przetwarzane są w celu:</p>
+                    <ul class="font-body-md text-body-md">
+                        <li><strong>Obsługi zapytań i kontaktu:</strong> Odpowiedzi na wiadomości przesłane za pośrednictwem formularza kontaktowego lub bezpośrednio na numer telefonu/e-mail (podstawa prawna: art. 6 ust. 1 lit. f RODO – prawnie uzasadniony interes administratora).</li>
+                        <li><strong>Rezerwacji terminów i realizacji usług:</strong> Prowadzenia zapisów na wizyty, zarządzania kalendarzem oraz wykonania usługi masażu (podstawa prawna: art. 6 ust. 1 lit. b RODO – niezbędne do wykonania usługi).</li>
+                        <li><strong>Obowiązków prawnych:</strong> Wypełnienia obowiązków skarbowo-księgowych ciążących na Administratorze, np. wystawianie rachunków lub faktur na życzenie klienta (podstawa prawna: art. 6 ust. 1 lit. c RODO).</li>
+                    </ul>
+                </section>
+
+                <section>
+                    <h2 class="font-headline-lg text-headline-lg text-primary">3. Okres przechowywania danych</h2>
+                    <p class="font-body-md text-body-md">Państwa dane będą przechowywane przez okres niezbędny do realizacji celów:</p>
+                    <ul class="font-body-md text-body-md">
+                        <li>Dane z formularza kontaktowego, wiadomości e-mail oraz SMS służące wyłącznie do umówienia wizyty, są usuwane niezwłocznie po ustaleniu terminu lub odbyciu masażu.</li>
+                        <li>W przypadku wystawienia rachunku lub faktury, dane wymagane przepisami prawa podatkowego będą przechowywane przez okres przewidziany w tych przepisach (z reguły 5 lat od końca roku podatkowego).</li>
+                    </ul>
+                </section>
+
+                <section>
+    <h2 class="font-headline-lg text-headline-lg text-primary">4. Odbiorcy danych</h2>
+    <p class="font-body-md text-body-md mb-4">
+        Państwa dane osobowe mogą być przekazywane podmiotom, które wspierają mnie w prowadzeniu działalności:
+    </p>
+    <ul class="list-disc list-inside font-body-md text-body-md space-y-2 ml-2">
+        <li><strong>GitHub, Inc.</strong> (dostawca hostingu w ramach usługi GitHub Pages) – w celu technicznego utrzymania strony internetowej;</li>
+        <li><strong>Google LLC</strong> – w związku z osadzeniem na stronie narzędzia Google Maps oraz wykorzystaniem technologii Google Apps Script do obsługi formularza kontaktowego;</li>
+        <li><strong>Dostawca skrzynki e-mail</strong> – w celu umożliwienia kontaktu oraz obsługi Państwa zapytań.</li>
+    </ul>
+</section>
+
+                <section>
+                    <h2 class="font-headline-lg text-headline-lg text-primary">5. Pliki Cookies (Ciasteczka) i narzędzia firm trzecich</h2>
+                    <p class="font-body-md text-body-md">
+                        Mój serwis korzysta z plików cookies (niewielkich plików tekstowych zapisywanych na Twoim urządzeniu). Wykorzystuję je w celach:
+                    </p>
+                    <ul class="font-body-md text-body-md">
+                        <li><strong>Technicznych i funkcjonalnych:</strong> Niezbędnych do prawidłowego działania strony i jej elementów.</li>
+                        <li><strong>Obsługi narzędzi zewnętrznych:</strong> Na stronie osadzona jest interaktywna Mapa Google oraz formularz kontaktowy oparty na technologii Google Apps Script. Dostawcy tych usług (Google LLC) mogą przetwarzać dane w celu poprawnego działania tych funkcji.</li>
+                    </ul>
+                    <p class="font-body-md text-body-md">
+                        Użytkownik w każdej chwili może zablokować lub usunąć pliki cookies w ustawieniach swojej przeglądarki internetowej. Ograniczenie stosowania plików cookies może jednak wpłynąć na niektóre funkcjonalności dostępne na stronie (np. poprawne wyświetlanie mapy).
+                    </p>
+                </section>
+
+                <section>
+                    <h2 class="font-headline-lg text-headline-lg text-primary">6. Prawa użytkownika</h2>
+                    <p class="font-body-md text-body-md">
+                        Zgodnie z przepisami RODO, przysługuje Państwu prawo do: dostępu do swoich danych, ich sprostowania, usunięcia ("prawo do bycia zapomnianym"), ograniczenia przetwarzania, wniesienia sprzeciwu wobec przetwarzania oraz prawo do wniesienia skargi do organu nadzorczego (Prezesa Urzędu Ochrony Danych Osobowych). W przypadku danych, które są niezwłocznie usuwane po kontakcie (SMS/e-mail), prawa te realizowane są automatycznie poprzez ich trwałe usunięcie.
+                    </p>
+                </section>
+
+                <section>
+                    <h2 class="font-headline-lg text-headline-lg text-primary">7. Kontakt z Administratorem</h2>
+                    <div class="bg-surface-mist p-stack-md rounded-lg border border-outline-variant/30">
+                        <p class="font-label-md text-label-md text-primary mb-2">Administrator Danych Osobowych:</p>
+                        <p class="font-body-md text-body-md font-semibold text-on-surface">Beata Stróżna - Gabinet Masażu Leczniczego</p>
+                        <p class="font-body-md text-body-md">ul. Makowa 14, 55-220 Jelcz-Laskowice</p>
+                        <p class="font-body-md text-body-md">Email: biuro@masazleczniczybeata.pl</p>
+                        <p class="font-body-md text-body-md">Tel: +48 782 638 597</p>
+                    </div>
+                    <p class="mt-6 font-body-md text-body-md italic">
+                        W sprawach związanych z przetwarzaniem danych osobowych mogą Państwo kontaktować się drogą mailową lub telefoniczną pod powyższymi danymi.
+                    </p>
+                </section>
+            </article>
+    </div>
+</main>
+<!-- Footer -->
+    <footer class="bg-mint-bg w-full py-6 border-t border-outline-variant/30 text-xs font-normal text-outline">
+        <div class="flex flex-col md:flex-row justify-between items-center px-4 md:px-margin-desktop max-w-container-max mx-auto gap-4 text-center md:text-left">
+            
+            <!-- Prawa autorskie -->
+            <div>
+                © 2026 Gabinet Masażu Leczniczego Beata Stróżna
+            </div>
+            
+            <!-- Polityka prywatności -->
+            <div>
+                <a class="hover:text-primary transition-colors" href="polityka-prywatnosci.html">
+                    Polityka prywatności i cookies
+                </a>
+            </div>
+            
+            <!-- Podpis autora (subtelny i blady) -->
+            <div class="opacity-80">
+                Projekt i realizacja: 
+                <a class="hover:text-primary transition-colors" href="https://halaczkiewicz.it" target="_blank">
+                    halaczkiewicz.it
+                </a>
+            </div>
+
+        </div>
+    </footer>
+
+<script>
+    const menuBtn = document.getElementById('menuBtn');
+    const mobileMenu = document.getElementById('mobileMenu');
+    const iconMenu = document.getElementById('iconMenu');
+    const iconClose = document.getElementById('iconClose');
+
+    menuBtn.addEventListener('click', () => {
+        const isHidden = mobileMenu.classList.toggle('hidden');
+        if (isHidden) {
+            iconMenu.classList.replace('scale-50', 'scale-100');
+            iconMenu.classList.replace('rotate-90', 'rotate-0');
+            iconMenu.classList.replace('opacity-0', 'opacity-100');
+            iconClose.classList.replace('scale-100', 'scale-50');
+            iconClose.classList.replace('rotate-0', '-rotate-90');
+            iconClose.classList.replace('opacity-100', 'opacity-0');
+        } else {
+            iconMenu.classList.replace('scale-100', 'scale-50');
+            iconMenu.classList.replace('rotate-0', 'rotate-90');
+            iconMenu.classList.replace('opacity-100', 'opacity-0');
+            iconClose.classList.replace('scale-50', 'scale-100');
+            iconClose.classList.replace('-rotate-90', 'rotate-0');
+            iconClose.classList.replace('opacity-0', 'opacity-100');
+        }
+    });
+</script>
+</body>
+</html>
