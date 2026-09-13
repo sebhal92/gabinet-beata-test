@@ -1,4 +1,4 @@
-Contact: mailto:biuro@masazleczniczybeata.pl
+Contact: mailto:contact@halaczkiewicz.it
 Preferred-Languages: en, pl
 Canonical: https://masazleczniczybeata.pl/security.txt
 Policy: https://masazleczniczybeata.pl/
