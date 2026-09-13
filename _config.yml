@@ -1,1 +1,47 @@
-dupa
+title: "Beata Stróżna - Gabinet Masażu Leczniczego"
+description: "Profesjonalny gabinet masażu leczniczego w Jelczu-Laskowicach. Oferuję masaże lecznicze, relaksacyjne oraz rehabilitację. Umów wizytę telefonicznie."
+url: "https://halaczkiewicz.it"
+
+# GitHub Pages – disable default theme
+theme: null
+
+# Markdown engine
+markdown: kramdown
+
+# Permalinks (optional, but clean)
+permalink: pretty
+
+# Exclude files that should NOT be processed by Jekyll
+exclude:
+  - README.md
+  - LICENSE
+  - CNAME
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - package.json
+  - package-lock.json
+  - robots.txt
+  - security.txt
+  - humans.txt
+
+# Include assets folder
+include:
+  - assets
+
+# Future-proof settings
+kramdown:
+  input: GFM
+
+# Performance optimizations
+plugins:
+  - jekyll-minifier
+  - jekyll-sitemap
+
+jekyll-minifier:
+  remove_comments: true
+  remove_intertag_spaces: true
+  collapse_whitespace: true
+  remove_quotes: true
+  compress_css: true
+  compress_javascript: true
