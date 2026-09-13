@@ -1,1 +1,9 @@
-browserconfig.xml       # Konfiguracja kafelków dla Windowsa
+<?xml version="1.0" encoding="utf-8"?>
+<browserconfig>
+  <msapplication>
+    <tile>
+      <square150x150logo src="/favicon.svg"/>
+      <TileColor>#36b2b2</TileColor>
+    </tile>
+  </msapplication>
+</browserconfig>
