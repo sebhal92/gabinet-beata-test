@@ -1,1 +1,17 @@
-dupa
+/* TEAM */
+Developer: Sebastian Hałaczkiewicz
+Role: Platform Operations & Infrastructure Engineer
+Location: Wrocław, Poland
+Website: https://halaczkiewicz.it
+
+/* SITE */
+Title: Beata Stróżna - Gabinet Masażu Leczniczego
+URL: https://masazleczniczybeata.pl/
+
+/* TECHNOLOGY */
+Stack: HTML, Tailwind CSS, Jekyll, Google Apps Script
+Hosting: GitHub Pages
+Tools: VS Code, Git, Linux
+
+/* THANKS */
+Thanks to the open-source community.
