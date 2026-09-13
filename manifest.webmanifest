@@ -1,1 +1,15 @@
-manifest.webmanifest    # Plik PWA dla aplikacji webowych
+{
+  "name": "Beata Stróżna - Gabinet Masażu Leczniczego",
+  "short_name": "Beata Strózna",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#225abc",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}
