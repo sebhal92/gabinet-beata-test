@@ -41,3 +41,4 @@ Every push to the `main` branch triggers a rebuild.
 ---
 
 © 2026 Beata Stróżna
+Projekt i realizacja: [halaczkiewicz.it](https://halaczkiewicz.it)
