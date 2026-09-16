@@ -1,12 +1,32 @@
 <head>
     <meta charset="utf-8"/>
     <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="robots" content="index, follow">
+
+    <!-- SEO Meta Tags -->
     <title>{% if page.title %}{{ page.title }} - {% endif %}Beata Stróżna - Gabinet Masażu Leczniczego</title>
+    <meta name="description" content="Profesjonalny masaż leczniczy, rehabilitacja i fizjoterapia w Jelczu-Laskowicach. Doświadczony masażysta, ul. Makowa 14. Umów wizytę telefonicznie!">
+    <meta name="keywords" content="masaż leczniczy Jelcz-Laskowice, masażysta Jelcz, fizjoterapia, rehabilitacja, masaż kręgosłupa, Beata Stróżna">
+
+    <link rel="canonical" href="{{ site.url }}{% if page.url %}{{ page.url }}{% endif %}" />
+
+    <!-- OpenGraph for Social Media & Sharing -->
+    <meta property="og:title" content="{% if page.title %}{{ page.title }} - {% endif %}Gabinet Masażu Leczniczego Beata Stróżna">
+    <meta property="og:description" content="Profesjonalny masaż leczniczy i rehabilitacja w Jelczu-Laskowicach. Ul. Makowa 14.">
+    <meta property="og:site_name" content="Gabinet Masażu Leczniczego Beata Stróżna">
+    <meta property="og:url" content="{{ site.url }}{% if page.url %}{{ page.url }}{% endif %}">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="{{ site.url }}/assets/images/og-image.webp">
+
     <!-- Favicon -->
     <link rel="icon" type="image/png" href="/assets/images/favicon.png">
     <link rel="apple-touch-icon" href="/assets/images/favicon.png">
+
+    <!-- Tailwind CSS & Google Fonts -->
     <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&amp;family=Plus+Jakarta+Sans:wght@400;500;600;700&amp;family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+    
     <script id="tailwind-config">
         tailwind.config = {
             darkMode: "class",
@@ -39,5 +59,57 @@
                 }
             }
         }
+    </script>
+
+    <!-- Schema.org LocalBusiness (JSON-LD) z dokładnymi godzinami -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "HealthAndBeautyBusiness",
+      "name": "Gabinet Masażu Leczniczego Beata Stróżna",
+      "alternateName": [
+        "Beata Stróżna",
+        "Beata Strozna",
+        "Gabinet Masażu Leczniczego"
+      ],
+      "description": "Profesjonalny masaż leczniczy, rehabilitacja i fizjoterapia w Jelczu-Laskowicach.",
+      "url": "{{ site.url }}",
+      "image": "{{ site.url }}/assets/images/og-image.webp",
+      "telephone": "+48782638597",
+      "email": "biuro@masazleczniczybeata.pl",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "ul. Makowa 14",
+        "addressLocality": "Jelcz-Laskowice",
+        "postalCode": "55-220",
+        "addressCountry": "PL"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 51.03710,
+        "longitude": 17.33710
+      },
+      "priceRange": "$$",
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": ["Monday", "Wednesday"],
+          "opens": "11:00",
+          "closes": "19:00"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": ["Tuesday", "Thursday", "Friday"],
+          "opens": "09:00",
+          "closes": "17:00"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": ["Saturday"],
+          "opens": "08:00",
+          "closes": "12:00"
+        }
+      ]
+    }
     </script>
 </head>
