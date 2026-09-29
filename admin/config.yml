@@ -2,7 +2,6 @@ backend:
   name: github
   repo: sebhal92/gabinet-beata-test
   branch: main
-  base_url: https://cms.netlify.com
   client_id: Ov23liTCsuBqwi3OUTJH
 
 media_folder: "assets/images"
@@ -35,3 +34,7 @@ collections:
                   - label: "Czas trwania"
                     name: "czas"
                     type: "string"
+                  - label: "Cena (np. 150 zł lub zostaw puste, by był przycisk Zapytaj)"
+                    name: "cena"
+                    type: "string"
+                    required: false
