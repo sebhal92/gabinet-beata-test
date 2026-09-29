@@ -14,32 +14,6 @@ collections:
         label: "Edycja Cennika"
         name: "cennik_uslug"
         fields:
-          - label: "Kategorie"
-            name: "kategorie"
-            type: "list"
-            field:
-              label: "Kategoria"
-              name: "kategoria_item"
-              type: "object"
-              fields:
-                - label: "Nazwa kategorii"
-                  name: "nazwa"
-                  type: "text"
-                - label: "Zabiegi"
-                  name: "pozycje"
-                  type: "list"
-                  field:
-                    label: "Zabieg"
-                    name: "zabieg_item"
-                    type: "object"
-                    fields:
-                      - label: "Nazwa zabiegu"
-                        name: "zabieg"
-                        type: "text"
-                      - label: "Czas trwania"
-                        name: "czas"
-                        type: "text"
-                      - label: "Cena"
-                        name: "cena"
-                        type: "text"
-                        required: false
+          - label: "Zawartość pliku Cennika (YAML)"
+            name: "raw_cennik"
+            type: "text"
