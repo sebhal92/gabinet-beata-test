@@ -2,8 +2,6 @@ backend:
   name: github
   repo: sebhal92/gabinet-beata-test
   branch: main
-  base_url: https://decap-cms-oauth.netlify.app
-  client_id: Ov23liTCsuBqwi3OUTJH
 
 media_folder: "assets/images"
 public_folder: "/assets/images"
