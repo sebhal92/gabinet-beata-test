@@ -3,6 +3,7 @@ backend:
   repo: sebhal92/gabinet-beata-test
   branch: main
   base_url: https://decap-cms-oauth.netlify.app
+  auth_endpoint: auth
   client_id: Ov23liTCsuBqwi3OUTJH
 
 media_folder: "assets/images"
