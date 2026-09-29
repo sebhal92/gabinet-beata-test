@@ -17,21 +17,29 @@ collections:
           - label: "Kategorie"
             name: "kategorie"
             type: "list"
-            fields:
-              - label: "Nazwa kategorii"
-                name: "nazwa"
-                type: "string"
-              - label: "Zabiegi"
-                name: "pozycje"
-                type: "list"
-                fields:
-                  - label: "Zabieg"
-                    name: "zabieg"
-                    type: "string"
-                  - label: "Czas"
-                    name: "czas"
-                    type: "string"
-                  - label: "Cena"
-                    name: "cena"
-                    type: "string"
-                    required: false
+            field:
+              label: "Kategoria"
+              name: "kategoria_item"
+              type: "object"
+              fields:
+                - label: "Nazwa kategorii"
+                  name: "nazwa"
+                  type: "text"
+                - label: "Zabiegi"
+                  name: "pozycje"
+                  type: "list"
+                  field:
+                    label: "Zabieg"
+                    name: "zabieg_item"
+                    type: "object"
+                    fields:
+                      - label: "Nazwa zabiegu"
+                        name: "zabieg"
+                        type: "text"
+                      - label: "Czas trwania"
+                        name: "czas"
+                        type: "text"
+                      - label: "Cena"
+                        name: "cena"
+                        type: "text"
+                        required: false
