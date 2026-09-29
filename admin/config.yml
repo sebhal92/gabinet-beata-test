@@ -2,6 +2,7 @@ backend:
   name: github
   repo: sebhal92/gabinet-beata-test
   branch: main
+  auth_type: implicit
 
 media_folder: "assets/images"
 public_folder: "/assets/images"
