@@ -8,18 +8,5 @@
 <body>
   <!-- Decap CMS Script -->
   <script src="https://unpkg.com/decap-cms@^3.0.0/dist/decap-cms.js"></script>
-  <script>
-    // Wymuszenie lokalnego/tokenowego trybu logowania bez zewnętrznych serwerów OAuth
-    CMS.init({
-      config: {
-        backend: {
-          name: "github",
-          repo: "sebhal92/gabinet-beata-test",
-          branch: "main",
-          auth_type: "implicit"
-        }
-      }
-    });
-  </script>
 </body>
 </html>
