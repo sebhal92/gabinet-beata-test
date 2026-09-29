@@ -14,26 +14,24 @@ collections:
         label: "Edycja Cennika"
         name: "cennik_uslug"
         fields:
-          - label: "Kategorie i zabiegi"
+          - label: "Kategorie"
             name: "kategorie"
             type: "list"
             fields:
               - label: "Nazwa kategorii"
                 name: "nazwa"
-                type: "text"
-                required: false
-              - label: "Pozycje (Zabiegi)"
+                type: "string"
+              - label: "Zabiegi"
                 name: "pozycje"
                 type: "list"
-                required: false
                 fields:
-                  - label: "Nazwa zabiegu"
+                  - label: "Zabieg"
                     name: "zabieg"
-                    type: "text"
-                  - label: "Czas trwania"
+                    type: "string"
+                  - label: "Czas"
                     name: "czas"
-                    type: "text"
-                  - label: "Cena (np. 150 zł lub zostaw puste, by był przycisk Zapytaj)"
+                    type: "string"
+                  - label: "Cena"
                     name: "cena"
-                    type: "text"
+                    type: "string"
                     required: false
