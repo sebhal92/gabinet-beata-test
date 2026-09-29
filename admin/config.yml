@@ -20,7 +20,7 @@ collections:
             fields:
               - label: "Nazwa kategorii"
                 name: "nazwa"
-                type: "string"
+                type: "text"
                 required: false
               - label: "Pozycje (Zabiegi)"
                 name: "pozycje"
@@ -29,11 +29,11 @@ collections:
                 fields:
                   - label: "Nazwa zabiegu"
                     name: "zabieg"
-                    type: "string"
+                    type: "text"
                   - label: "Czas trwania"
                     name: "czas"
-                    type: "string"
+                    type: "text"
                   - label: "Cena (np. 150 zł lub zostaw puste, by był przycisk Zapytaj)"
                     name: "cena"
-                    type: "string"
+                    type: "text"
                     required: false
