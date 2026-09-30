@@ -14,7 +14,7 @@ collections:
         label: "Edycja Cennika"
         name: "cennik_uslug"
         fields:
-          - label: "Zawartość pliku cennika (YAML)"
+          - label: "Struktura cennika YAML"
             name: "body"
             type: "text"
-            hint: "Wpisz lub zmień ceny zachowując formatowanie YAML pliku cennika."
+            hint: "Tutaj znajduje się cała struktura kategorii i pozycji cennika w formacie YAML."
