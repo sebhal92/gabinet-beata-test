@@ -14,24 +14,7 @@ collections:
         label: "Edycja Cennika"
         name: "cennik_uslug"
         fields:
-          - label: "Kategorie i zabiegi"
-            name: "kategorie"
-            type: "list"
-            fields:
-              - label: "Nazwa kategorii"
-                name: "nazwa"
-                type: "string"
-              - label: "Pozycje (Zabiegi)"
-                name: "pozycje"
-                type: "list"
-                fields:
-                  - label: "Nazwa zabiegu"
-                    name: "zabieg"
-                    type: "string"
-                  - label: "Czas trwania"
-                    name: "czas"
-                    type: "string"
-                  - label: "Cena (np. 150 zł)"
-                    name: "cena"
-                    type: "string"
-                    required: false
+          - label: "Zawartość pliku cennika (YAML)"
+            name: "body"
+            type: "text"
+            hint: "Wpisz lub zmień ceny zachowując formatowanie YAML pliku cennika."
