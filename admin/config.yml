@@ -14,6 +14,7 @@ collections:
         label: "Edycja Cennika"
         name: "cennik_uslug"
         fields:
-          - label: "Kategorie (Struktura YAML)"
-            name: "kategorie"
-            type: "text"
+          - label: "Zawartość cennika"
+            name: "raw_yaml"
+            widget: "text"
+            required: true
