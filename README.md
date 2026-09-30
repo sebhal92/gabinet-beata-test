@@ -19,9 +19,15 @@ The website is built using:
 
 - **Jekyll** (GitHub Pages)
 - **TailwindCSS** (Custom configuration with brand color extensions)
+- **Google Apps Script** – Backend processing and handling for the contact form
 - **HTML includes** for modular structure (nav, footer, sections)
 - **Schema.org** for local SEO optimization
 - **Custom typography** (Inter & Geist local fonts)
+
+## 🛠️ Admin Panel & Content Management
+
+- **Sveltia CMS** – A modern, mobile-friendly Git-based content management system.
+- Integrated via GitHub backend (`/admin/`), enabling seamless, non-technical updates to the service price list (`_data/cennik.yml`) directly from desktop and mobile devices.
 
 ## 🚀 Deployment
 
