@@ -9,12 +9,29 @@ public_folder: "/assets/images"
 collections:
   - name: "cennik"
     label: "Cennik usług"
-    files:
-      - file: "_data/cennik.yml"
-        label: "Edycja Cennika"
-        name: "cennik_uslug"
+    folder: "_data"
+    create: false
+    delete: false
+    extension: "yml"
+    format: "yaml"
+    fields:
+      - label: "Kategorie"
+        name: "kategorie"
+        widget: "list"
         fields:
-          - label: "Tresc cennika"
-            name: "tresc_cennika"
-            widget: "text"
-            required: true
+          - label: "Nazwa kategorii"
+            name: "nazwa"
+            widget: "string"
+          - label: "Pozycje"
+            name: "pozycje"
+            widget: "list"
+            fields:
+              - label: "Zabieg"
+                name: "zabieg"
+                widget: "string"
+              - label: "Czas"
+                name: "czas"
+                widget: "string"
+              - label: "Cena"
+                name: "cena"
+                widget: "string"
