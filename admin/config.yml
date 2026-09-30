@@ -9,12 +9,13 @@ public_folder: "/assets/images"
 collections:
   - name: "cennik"
     label: "Cennik usług"
-    files:
-      - file: "_data/cennik.yml"
-        label: "Edycja Cennika"
-        name: "cennik_uslug"
-        fields:
-          - label: "Zawartość YAML"
-            name: "raw_content"
-            type: "text"
-            widget: "text"
+    folder: "_data"
+    create: false
+    extension: "yml"
+    format: "yaml"
+    identifier_field: "kategorie"
+    fields:
+      - label: "Zawartość YAML cennika"
+        name: "kategorie"
+        type: "text"
+        widget: "text"
