@@ -40,7 +40,7 @@ collections:
     files:
       - name: "godziny"
         label: "Godziny otwarcia"
-        file: "_data/godzinny.yml"
+        file: "_data/godziny.yml"
         fields:
           - label: "Poniedziałek"
             name: "poniedzialek"
