@@ -5,19 +5,23 @@
     <meta name="robots" content="index, follow">
 
     <!-- SEO Meta Tags -->
-    <title>{% if page.title %}{{ page.title }} - {% endif %}Beata Stróżna - Gabinet Masażu Leczniczego</title>
+    <title>{% if page.title %}{{ page.title }} - {% endif %}Gabinet Masażu Leczniczego Beata Stróżna</title>
     <meta name="description" content="Profesjonalny masaż leczniczy, rehabilitacja i fizjoterapia w Jelczu-Laskowicach. Doświadczony masażysta, ul. Makowa 14. Umów wizytę telefonicznie!">
     <meta name="keywords" content="masaż leczniczy Jelcz-Laskowice, masażysta Jelcz, fizjoterapia, rehabilitacja, masaż kręgosłupa, Beata Stróżna">
 
-    <link rel="canonical" href="{{ site.url }}{% if page.url %}{{ page.url }}{% endif %}" />
+    <link rel="canonical" href="https://masazleczniczybeata.pl{{ page.url }}" />
 
     <!-- OpenGraph for Social Media & Sharing -->
     <meta property="og:title" content="{% if page.title %}{{ page.title }} - {% endif %}Gabinet Masażu Leczniczego Beata Stróżna">
     <meta property="og:description" content="Profesjonalny masaż leczniczy i rehabilitacja w Jelczu-Laskowicach. Ul. Makowa 14.">
     <meta property="og:site_name" content="Gabinet Masażu Leczniczego Beata Stróżna">
-    <meta property="og:url" content="{{ site.url }}{% if page.url %}{{ page.url }}{% endif %}">
+    <meta property="og:url" content="https://masazleczniczybeata.pl{{ page.url }}">
     <meta property="og:type" content="website">
-    <meta property="og:image" content="{{ site.url }}/assets/images/og-image.webp">
+    <meta property="og:image" content="https://masazleczniczybeata.pl/assets/images/og-image.webp">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content="https://masazleczniczybeata.pl/assets/images/og-image.webp">
 
     <!-- Favicon -->
     <link rel="icon" type="image/png" href="/assets/images/favicon.png">
